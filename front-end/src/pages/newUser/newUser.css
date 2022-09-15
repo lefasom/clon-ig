@@ -1,0 +1,89 @@
+
+
+.newUser-container{
+    display: flex;
+    justify-content: center;
+    background-color: #FEFEFE;
+    width: 100%;
+    height: 830px;
+}
+.newUser-container form{
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	height: 50%;
+	margin-top: 40px;
+	padding-top: 10px;
+	align-items: center;
+	border-radius: 15px;
+	background-color: #fffd;
+    box-shadow: 2px 2px 10px #eee;
+	
+
+	
+
+
+}
+.newUser-container form div{
+	display: flex;
+	justify-content: center;
+	width: 90%;
+
+}
+
+.newUser-container form div
+input[type='text'],
+input[type='password']{
+	padding: 6px;
+	margin: 15px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	outline-color: cadetblue;
+	border-radius: 7px;
+	font-size: 15px;
+	width: 100%;
+}
+.newUser-container form
+input[type='text']{
+	padding: 6px;
+	margin: 15px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	outline-color: cadetblue;
+	border-radius: 7px;
+	font-size: 15px;
+	width: 75%;
+}
+.newUser-container form
+input[type='mail']{
+	padding: 6px 20px;
+	margin: 15px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	outline-color: cadetblue;
+	border-radius: 7px;
+	font-size: 15px;
+	width: 75%;
+
+
+
+}
+
+.newUser-container form input[type='submit']{
+	font-size: 16px;
+	padding: 7px;
+	background-color: #fff;
+	color: #777;
+	border: 1px solid #bbb;
+	outline: 0;
+}
+.newUser-container form input[type='submit']:hover{
+	outline: 1px solid #777;
+}
+.newUser-container form input[type='submit']:active{
+	outline: 2px solid #777;
+}
+
+
+
+

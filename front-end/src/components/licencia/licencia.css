@@ -1,0 +1,134 @@
+.container-licencia{
+	height:  210px;
+}
+.container-licencia h4{
+	text-align: center;
+	display: flex;
+	/*width: 200px;*/
+	font-size: 	15px;
+	font-weight: 500;
+	color: #555;
+}
+
+.licencia{
+	display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+.licencia-Left #img{
+  width: 107px;
+  height: 107px;
+  border-radius: 50%;
+  margin-left: 15px;
+
+ border: 3px solid #ddd;
+
+}
+.licencia-Left #user{
+	width: 142px;
+  height: 142px;
+  border-radius: 50%;
+ border: 3px solid transparent;
+  margin-left: 10px;
+
+
+}
+.licencia-Left div span{
+	display: flex;
+	justify-content: center;
+ margin-top: -9px;
+  font-size: 155px;
+  color: #ddd;
+}
+
+.licencia-Left div img{
+	display: flex;
+	margin: auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  color: #ddd;
+  margin-left:0px;
+}
+
+.licencia-right div{
+	display: flex;
+	
+}
+.licencia-right div h1{
+	font-weight: 400;
+	font-family: serif;
+	letter-spacing: 1px;
+	font-size: 23px;
+	color: #555;
+  
+  text-align: center;
+
+
+}
+.licencia-right div span{
+	color: #555;
+	font-size: 34px;
+	padding: 5px;
+
+}
+.licencia-right div span:hover{
+	color: #3f72ff;
+}
+.licencia-right button{
+	width: 90px;
+	height: 34px;
+	border: 0;
+	border: 1px solid #ddd;
+	border-radius: 7px;
+	background-color: #fff;
+	font-weight: 700;
+	color: #666;
+}
+.licencia-right .buttonBlue{
+	background-color: #3f72ff;
+	color: #fff;
+	border: 1px solid #fff;
+}
+.licencia-right button:hover{
+	border: 2px solid #ddd;
+}
+.licencia-right button:active{
+	border: 3px solid #3f72ff;
+}
+.modalBlock{
+	position: fixed;
+	width: 100%;
+	height: 72%;
+	background-color: rgba(0, 0, 0, .7);
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #3f72ff;
+
+}
+.modalBlock .view{
+	border: 1px solid #3f72ff;
+
+	background-color: #fff;
+	width: 90%;
+	height: 70%;
+	margin: auto;
+	
+
+}	
+.modalHidden{
+display: none;
+
+}
+
+.modalBlock button{
+		margin: 0 20px;
+		font-size: 40px;
+		width: 25px;
+		border: 0;
+		cursor: pointer;
+		color: #fff;
+		background-color: transparent;
+}
+

@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color:# ;
+ 
+}
+
+/*============ BARRA DE NAVEGACION =================*/
+
+
+
+	.left{
+		display: flex;
+		justify-content:flex-start;
+		padding: 10px;
+		bottom: 0px;
+		width: 100%;
+		height: 54px;
+		background-color:#fbfbff;
+		border: 0;
+
+
+	}
+	.left input{
+		border: 0;
+		border: 1px solid #aaa;
+		outline-color: #aaa;
+		border-radius: 10px;
+		padding: 10px;
+		margin: 0 5px;
+
+
+	}
+	.left div button{
+		border: 0;
+		background-color: #ddd;
+		padding: 4px;
+		border-radius: 10px;
+
+	}
+	.left div button span{
+		font-size: 22px;
+		color: #444;
+	}
+	.left button{
+		border: 0;
+		background-color: transparent;
+	}
+	
+	.left button span{
+		font-size: 33px;
+		color: #262626;
+		cursor: pointer;
+		margin:0 10px;
+
+	}
+	.left button span:hover{
+		
+		color: orangered;
+		
+	}
+	.left div button span:hover{
+		
+		color: #444;
+		
+	}
+
+
+
+	
+
+/*============ HISTORIAS DE USUARIOS ================*/
+
+	.history{
+		background-color: #fff;
+		border-radius: 10px;
+		margin: auto;
+		border: 1px solid #ddd;
+
+    }
+
+
+	/*============== TIPO DE LETRAS =====================*/
+			h1{
+				font-size: 20px;
+				font-family: 'Poppins', sans-serif;
+				color: #121212;
+			}
+			h3{
+				font-size: 17px;
+				font-family: 'Poppins', sans-serif;
+				color: #121212;
+			}
+			h2{
+				font-size: 15px;
+				font-family: 'Poppins', sans-serif;
+				color: #121212;
+
+			}
+			h4{
+				font-size: 13px;
+				font-family: 'Poppins', sans-serif;
+				color: #757070;
+			}
+			h5{
+				font-size: 16px;
+				font-family: 'Poppins', sans-serif;
+				font-weight: 400;
+				color: #222;
+				margin:1px 10px;
+			}
+
+			p{
+				font-size: 12px;
+				font-family: 'Poppins', sans-serif;
+				color: #121212;
+			}
+			
+	/*=============== MODELADO DE MSJ ====================*/
+		
+	
+		.scroll{
+			padding: 5px;
+			width: 100%;
+			overflow-x: hidden;
+			overflow-x: scroll;
+		}
+
+		.msj{
+
+			display: flex;
+		}
+		.flex{
+			display: flex;
+
+		}
+
+		.perfil h3{
+
+	
+			font-size: 12px;
+			
+		}
+		.perfil div {
+
+			display: flex;
+
+			margin: 15px ;
+			
+			
+		}
+		
+		.history-content div {
+
+			width: 90%;
+			margin: auto;
+			background-color: whitesmoke;
+
+
+
+		}
+		.history-content div {
+			
+			border-radius: 20px;
+			margin: 3px auto;
+		}
+		.history-content .hora p{
+			margin: 0 10px;
+			text-align: right;
+			color: #aaa;
+
+		
+
+		}
+		.history-content .flex h4,p{
+			color: #222;
+			margin: 0 10px;
+		}
+
+		.history-content .flex button{
+			border: 0;
+			color: #aaa;
+			background-color: transparent;
+			margin: 10px;
+			cursor: pointer;
+			font-size: 14px;
+			
+
+		}
+		.history-content .flex button:hover{
+			color: orangered;
+		}
+
+		.perfil-buttom {
+			margin: 10px 0;
+		}
+		.perfil-buttom span{
+			font-size: 27px;
+			color: #3C3838;
+		}
+		.perfil-buttom span:hover{
+			color: orangered;
+		}
+		.perfil-buttom a{
+
+			text-decoration: none;
+
+		}
+		.history-content .msj{
+			background-color: transparent;
+			padding-bottom: 4px;
+			margin: 10px 20px;
+			border-bottom: 1px solid #ddd;
+
+
+		}
+		.black0{
+			color: #666;
+		}
+		.red1{
+			color: orangered;
+		}
+
+	/*=============== MODELADO DE IMG  ====================*/
+        .history{
+			width: 90%;
+			object-fit: cover;
+		}
+		.history img{
+			
+			width: 100%;
+			height: 300px;
+			object-fit: cover;
+			border-bottom: 1px solid #eee;
+		}
+		
+		@media(max-width: 800px){
+			.history{
+				width: 93%;
+		    }
+		}
+	/*=============== MODELADO DE PERFIL  ==================*/
+
+
+
+		.perfil{
+			margin: 10px 15px;
+			display: flex;
+			flex-direction: column;
+			margin-bottom: 10px;
+
+		}
+		.perfil img{
+			width: 70px;
+			height: 70px;
+			border-radius: 50%;
+			object-fit: cover;
+			padding: 1px;
+			
+		}
+		.perfil .img{
+			width: 75px;
+			height: 75px;
+			border: 3px solid #FB8E01;
+			border-radius: 50%;
+			display: flex;
+
+			
+			/*margin: auto;*/
+
+		}
+	
+		.perfil button h3{
+			text-align: center;
+			width: 100%;
+		}
+		.perfil  button h1{
+			text-align: left;
+			width: 100%;
+		}
+		.perfil button{
+			background-color: transparent;
+		    border-radius: 50%;
+			border: 0;
+			outline: 0;
+			cursor: pointer;	
+
+			display: flex;
+
+		}
+		.perfil button h3:hover{
+			color: steelblue;
+		}
+		.perfil button h1:hover{
+			color: steelblue;
+		}
+		
+/*============ CREATE ================*/
+		.tituloCreate{
+			width: 90%;
+			background-color: #fff;
+			border: 1px solid #D5D6D0;
+			border-radius: 20px;
+			padding: 10px;
+			display: flex;
+			flex-direction: column	;
+			text-align: center	;
+			margin: 10px auto;
+
+		}
+		.tituloCreate h1{
+
+			font-family:;
+
+
+
+		}
+	   .create{
+			display: flex;
+			justify-content: center	;
+		}
+		form{
+			margin: 10px 0;
+			border: 1px solid #D5D6D0 ;
+			width: 	90%;
+			border-radius: 15px;
+			background-color: #fff;
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+
+		}
+		.create form input[type='submit'],
+		.create form input[type='text']{
+			outline: none;
+	        margin: 10px 0;
+			border: 1px solid #D5D6D0 ;
+			width: 	100%;
+			border-radius: 15px;
+			background-color: #fff;
+		}
+	    .create form input[type='text']{
+			padding: 10px;
+			font-size: 	20px;
+			font-family:sans-serif;
+			
+
+		}
+		.create form input[type='submit']{
+			color:#53525A	;
+			padding: 5px;
+			font-size: 	20px;
+			font-family:poppins;
+			width: 	100px;
+		}
+		.create form input[type='submit']:hover{
+			background-color: #9FB2E1;
+			color: 	#fff;
+			
+		}
+		

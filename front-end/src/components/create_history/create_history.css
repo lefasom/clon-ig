@@ -1,0 +1,85 @@
+.v1{
+	background-color: green;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	padding: 3px;
+	margin-top: 12px;
+}
+.v0{
+	background-color: red;
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	padding: 3px;
+	margin-top: 12px;
+}
+#v1{
+	background-color: green;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+#v0{
+	background-color: red;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
+.create_history-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	padding: 10px;
+	border-top: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+
+}
+
+.create_history-container h1{
+	text-align: center;
+	padding: 5px;
+	margin-bottom: 10px;
+
+}
+.create_history-container div{
+	display: flex;
+
+}
+.create_history-container div div{
+	display: flex;
+	flex-direction: column;
+
+}
+.create_history-container div img{
+	width: 100px;
+	margin: 5px;
+}
+.create_history-container div h4{
+  	font-size: 16px;
+  	font-weight: 300;
+  	font-family: poppins;
+}
+.create_history-container div input[type="text"]{
+	height: 30px;
+	width: 200px;
+}
+.create_history-container div  button{
+  	font-size: 12px;
+  	font-weight: 300;
+  	font-family: poppins;
+  	width: 60px;
+  	height: 30px;
+  	padding: 2px;
+  	margin: 3px;
+}
+.create_history-container .detail{
+	display: flex;
+	font-size: 15px;
+	font-family: poppins;
+	margin: auto;
+	padding-bottom: 20px;
+}
+.create_history-container p div {
+	padding: 13px;
+	margin: 0 5px;
+}

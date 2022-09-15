@@ -1,0 +1,296 @@
+.message-container{	
+	margin: 2px;
+	display: flex;
+	flex-direction: column;
+	height: 400px;
+	overflow: hidden;
+	overflow-y: scroll ;
+
+
+
+}
+.message-container #output {
+    background-color: forestgreen;
+	display: flex;
+	flex-direction: column;
+	padding: 0px;
+	width: 66%;
+	margin: 4px 5px;
+	border-radius: 20px;
+	margin-left: 80px;
+
+}
+.message-container #outputUser,
+#outputUser1,
+#outputUser2,
+#outputUser3,
+#outputUser4,
+#outputUser5,
+#outputUser6,
+#outputUser7,
+#outputUser8,
+#outputUser9{
+
+    background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	padding: 0px 13px;
+	width: 66%;
+	margin: 4px 10px;
+	margin-left: 20px;
+	border-radius: 20px;
+}
+.message-container #outputUser .p{
+	color: #533E85;
+    width: 98%;
+	font-family: poppins;
+	font-size: 16px;
+    padding: 5px;
+    text-align: center	;
+
+
+}
+.message-container #outputUser1 .p{
+	color: #533E85;
+    width: 98%;
+	font-family: poppins;
+	font-size: 16px;
+padding: 10px;
+
+text-align: center	;
+
+
+}
+.message-container #outputUser2 .p{
+	color: #533E85;
+    width: 98%;
+	font-family: poppins;
+	font-size: 16px;
+padding: 10px;
+
+text-align: center	;
+
+
+}
+.message-container #outputUser3 .p{
+	color: #533E85;
+    width: 98%;
+	font-family: poppins;
+	font-size: 16px;
+padding: 10px;
+
+text-align: center	;
+
+
+}
+.message-container #outputUser4 .p{
+	color: #533E85;
+    width: 98%;
+	font-family: poppins;
+	font-size: 16px;
+padding: 10px;
+
+text-align: center	;
+
+}
+.message-container #outputUser5 .p{
+	color: #533E85;
+    width: 98%;
+	font-family: poppins;
+	font-size: 16px;
+padding: 10px;
+
+text-align: center	;
+
+
+}
+.message-container #outputUser6 .p{
+	color: #533E85;
+    width: 98%;
+	font-family: poppins;
+	font-size: 16px;
+
+padding: 10px;
+
+text-align: center	;
+
+}
+.message-container #outputUser7 .p{
+	color: #533E85;
+    width: 98%;
+	font-family: poppins;
+	font-size: 16px;
+padding: 10px;
+
+text-align: center	;
+
+
+}
+.message-container #outputUser8 .p{
+	color: #533E85;
+    width: 98%;
+	font-family: poppins;
+	font-size: 16px;
+padding: 10px;
+
+text-align: center	;
+
+
+}
+.message-container #outputUser9 .p{
+	color: #533E85;
+    width: 98%;
+	font-family: poppins;
+	font-size: 16px;
+padding: 10px;
+
+text-align: center	;
+
+
+}
+
+
+
+.message-container #output .p{
+    margin-bottom: 5px;
+
+	color: #fff;
+    width: 98%;
+	font-family: poppins;
+	font-size: 16px;
+	text-align: center;
+
+
+}
+.message-container #output .h1{
+	color: yellow;
+    padding: 10px 0px 0 10px ;
+    font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+}
+.message-container #outputUser .h1{
+	position: relative;
+	top: 1px;
+	color: green;
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+}
+.message-container #outputUser1 .h1{
+	position: relative;
+	top: 1px;
+	color: blue;
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+}
+.message-container #outputUser2 .h1{
+	position: relative;
+	top: 1px;
+	color: red;
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+}
+.message-container #outputUser3 .h1{
+	position: relative;
+	top: 1px;
+	color: brown;
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+}
+.message-container #outputUser4 .h1{
+	position: relative;
+	top: 1px;
+	color: palevioletred;
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+}.message-container #outputUser5 .h1{
+	position: relative;
+	top: 1px;
+	color: powderblue;
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+}
+.message-container #outputUser6 .h1{
+	position: relative;
+	top: 1px;
+	color: purple;
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+}
+
+.message-container #outputUser7 .h1{
+	position: relative;
+	top: 1px;
+	color: orange;
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+
+}
+.message-container #outputUser8 .h1{
+	position: relative;
+	top: 1px;
+	color: orangered;
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+}
+.message-container #outputUser9 .h1{
+	position: relative;
+	top: 1px;
+	color: rosybrown;
+	font-size: 16px;
+	font-family: poppins;
+	font-weight: 400;
+}
+.message-container #outputUser button{
+	position: relative;
+	right: 0;
+	cursor: pointer;
+	margin-left: 90%;
+	border: 0;
+	background-color: transparent;
+	width: 7px;
+	
+}
+.message-container #outputUser span{
+	font-size: 17px;
+	color: darkred;
+}
+
+.message-container #output button{
+	position: relative;
+	right: 0;
+	cursor: pointer;
+	margin-left: 80%;
+	border: 0;
+	background-color: transparent;
+	width: 7px;
+	
+}
+.message-container #output span{
+	font-size: 17px;
+	color: lightsalmon;
+}
+.message-container .alert{
+	display: flex;
+	align-items: center;
+	text-align: center;	
+	background-color: #cdd;
+
+	color: #777;
+	padding: 5px;
+	height: 40px;
+	width: 200px;
+	border-radius: 15px;
+	margin-left: 165px;
+	font-family: poppins;
+	font-size: 12px;
+}
